@@ -161,7 +161,7 @@ class Main extends React.Component{
 
   //set movie to focus on (with details/info)
   renderCurrentMovie () {
-    //display none before retrieved from db
+    //display none before data retrieved from db
     if (this.state.current === null) {
       return null;
     } else {
